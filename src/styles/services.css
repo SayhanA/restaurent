@@ -1,0 +1,45 @@
+#about,
+#experience,
+#contact {
+  display: none;
+}
+
+#services {
+  width: 100%;
+}
+
+#services > label {
+  padding: 6px 16px;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+#services #about:checked ~ label[for="about"],
+#services #experience:checked ~ label[for="experience"],
+#services #contact:checked ~ label[for="contact"] {
+  border-bottom: 2px solid #be3d1e;
+  background-color: #be3d1e;
+  color: white;
+}
+
+#about-content,
+#contact-content,
+#experience-content {
+  left: 150%;
+  height: 0;
+  width: 700px;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#services #contact:checked ~ #contact-content,
+#services #experience:checked ~ #experience-content,
+#services #about:checked ~ #about-content {
+  left: 0px;
+  max-width: 700px;
+  width: fit-content;
+  height: 400px;
+  overflow: hidden;
+  opacity: 1;
+}
