@@ -8,7 +8,7 @@ export const BookingForm = async () => {
   return (
     <section
       style={{ backgroundImage: `url(${BackGroundImage.src})` }}
-      className="bg-cover bg-center flex items-center justify-start py-[140px]"
+      className="bg-cover bg-center flex items-center justify-start py-[140px] overflow-hidden"
     >
       <div className="container mx-auto sm:px-10 px-5 ">
         <form

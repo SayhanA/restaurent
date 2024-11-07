@@ -8,7 +8,10 @@ import OfferSticker from "@/assets/svgs/OfferSticker";
 
 const HomeHero = ({ className = "" }) => {
   return (
-    <section id="Hero-section" className={`${className} bg-[#be3d1e]`}>
+    <section
+      id="Hero-section"
+      className={`${className} bg-[#be3d1e] overflow-hidden`}
+    >
       <div className="container mx-auto max-w-[1373.5px] md:h-[87.8vh] relative sm:ps-10 sm:pe-14 px-5 md:block flex flex-col-reverse transition-all h-fit">
         <div className="h-full md:float-end flex items-center relative mb-20">
           <FlowerSvg className="absolute end-[-30px] top-[6%]" />
