@@ -1,37 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Restaurant Website
 
-## Getting Started
+This project is a responsive restaurant website built using Next.js and Tailwind CSS. The goal is to accurately convert a Figma design into a pixel-perfect, cross-browser-compatible web application with a focus on clean, maintainable code and responsive design.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Restaurant Website Live](https://restaurent-98t1-k3w5rssyb-sayhanas-projects.vercel.app/?vercelToolbarCode=F5TbKHErQtJRRL8)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Assessment Instructions](#assessment-instructions)
+- [Submission Guidelines](#submission-guidelines)
+- [License](#license)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Overview
 
-## Learn More
+This project is an assignment where the Figma design provided needs to be implemented in HTML, with an emphasis on a pixel-perfect and responsive layout. The design can be implemented using plain HTML or frameworks like React or Vue. This project uses React with Next.js and Tailwind CSS for styling.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/yourusername/restaurant-website.git
+   cd restaurant-website
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# restaurent
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Technologies Used
+
+- **Next.js** `v15.0.2` - React framework for server-side rendering and static site generation.
+- **React** `v18.2.0` - JavaScript library for building user interfaces.
+- **Tailwind CSS** `v3.4.1` - Utility-first CSS framework for designing responsive web pages.
+- **React Multi Carousel** `v2.8.5` - Carousel component for showcasing items.
+- **React Player** `v2.16.0` - Video player for embedding media content.
+
+## Features
+
+- **Responsive Design**: The layout is fully responsive and compatible with all major browsers.
+- **Sticky Header**: The header section remains fixed at the top as users scroll.
+- **About Section Tabs**: Includes functional tabs with relevant content (currently using dummy text).
+- **Carousel**: Implements autoplay and looping with duplicated items using `react-multi-carousel`.
+- **Testimonials Slider**: Displays testimonials with a smooth slide effect.
+- **Functional Form**: An interactive form is provided for user engagement.
+
+## Assessment Instructions
+
+1. **Figma Design File**: [Click to View Design File](https://www.figma.com/design/lK32O7LXz6vVDDS1zCYNWI/Test?node-id=2-17&node-type=section&t=hW7xGBoss1l5yxFH-0)
+2. **Design Conversion**: Convert the Figma design into HTML, with React or Vue given priority.
+3. **Styling**: Use custom CSS or frameworks like Bootstrap or Tailwind CSS.
+4. **JavaScript Standards**: Ensure JavaScript is written using ES6 standards.
+5. **Responsiveness and Precision**: The final design should be pixel-perfect and fully responsive.
+
+## Base Requirements
+
+- Convert the Figma design into HTML, optionally using React or Vue.
+- Use a CSS framework (Bootstrap, Tailwind CSS, or custom CSS) for styling.
+
+## Project Requirements
+
+- **Sticky Header**: Header section should remain at the top when scrolling.
+- **About Section Tabs**: Functional tabs with relevant content (use placeholder text if needed).
+- **Carousel**: Should autoplay, loop, and display duplicated items.
+- **Testimonials Slider**: Use slide effect for transitioning between testimonials.
+- **Functional Form**: A functional contact or feedback form will be an added advantage.
+
+## Submission Guidelines
+
+1. Share the public repository link of the converted website in the application form.
+2. Include a `README.md` file in the repository, detailing:
+   - The live preview link.
+   - Any frameworks or libraries used in the project.
+   - Additional notes or requirements met in the project.
+
+## Additional Note
+
+Candidates who submit a structured, pixel-perfect, responsive website have a higher chance of being considered.
+
+## License
+
+This project is licensed under the MIT License.
