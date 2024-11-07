@@ -4,7 +4,8 @@ This project is a responsive restaurant website built using Next.js and Tailwind
 
 ## Live Demo
 
-[Restaurant Website Live](https://restaurent-98t1-k3w5rssyb-sayhanas-projects.vercel.app/?vercelToolbarCode=F5TbKHErQtJRRL8)
+[Live Link Netlify](https://restaurentbd.netlify.app/)
+[Restaurant Website Live Vercel](https://restaurent-98t1-k3w5rssyb-sayhanas-projects.vercel.app/?vercelToolbarCode=F5TbKHErQtJRRL8)
 
 ## Table of Contents
 
